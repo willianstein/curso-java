@@ -1,7 +1,8 @@
-package br.com.alura.loja.imposto;
+package loja.imposto;
 
 import java.math.BigDecimal;
-import br.com.alura.loja.orcamento.Orcamento;
+
+import loja.orcamento.Orcamento;
 
 public class ICMS implements Imposto{
 
