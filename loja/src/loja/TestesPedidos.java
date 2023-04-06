@@ -11,7 +11,7 @@ import loja.pedido.acao.SalvarPedidoNoBancoDeDados;
 public class TestesPedidos {
 
 	public static void main(String[] args) {
-		String cliente = "Ana da Silva";
+		String cliente = "willian stein";
 		BigDecimal valorOrcamento = new BigDecimal("745.99");
 		int quantidadeItens = 3;
 		
