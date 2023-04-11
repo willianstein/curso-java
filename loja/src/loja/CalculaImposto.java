@@ -14,8 +14,8 @@ public class CalculaImposto {
 
 		CalculadoraDEImpostos calculadora = new CalculadoraDEImpostos();
 
-		System.out.println("Imposto de ISS: "  + calculadora.calcular(orcamento, new ISS()));
-		System.out.println("imposto de ICMS: " + calculadora.calcular(orcamento, new ICMS()));
+		System.out.println("Imposto de ISS: "  + calculadora.calcular(orcamento, new ISS(null)));
+		System.out.println("imposto de ICMS: " + calculadora.calcular(orcamento, new ICMS(null)));
 
 	}
 
